@@ -1,24 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    char caractere = 255;
-    int inteiro = caractere;
-    float flutuante = inteiro;   
-    double duplo = flutuante;
-    printf("caractere = %i\n", caractere);
-    printf("inteiro = %i\n", inteiro);
-    printf("flutuante = %.7f\n", flutuante);
-    printf("duplo = %.7f\n", duplo);
+    char isbn[14] = "12222222";
+    int num_paginas = 2222;
+    float preco = 322;
+    int ano_publicacao = 2078;
 
-    duplo = 256.1234567;
-    flutuante = (float) duplo;
-    inteiro = (int) flutuante;
-    caractere = (char) inteiro;
-
-    printf("caractere = %i\n", caractere);
-    printf("inteiro = %i\n", inteiro);
-    printf("flutuante = %.7f\n", flutuante);
-    printf("duplo = %.7f\n", duplo);
+    printf("ISBN: %s\n", isbn);
+    printf("Num. Paginas: %d\n", num_paginas);
+    printf("Preco: R$ %.2f\n", preco);
+    printf("Publicado em %d\n", ano_publicacao);
 
     return 0;
 }
