@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    // Declaração das variáveis
-    char matricula[9] = "00000000"; // 8 dígitos + 1 para o caractere nulo
-    int idade = 99;
-    float altura = 9.90;
-    float peso = 999.0;
+    char matricula[9] = "22221400"; 
+    int idade = 20;
+    float altura = 1.84;
+    float peso = 80.0;
     char sexo = 'M';
 
-    // Impressão dos valores das variáveis
     printf("Matricula: %s\n", matricula);
     printf("Idade: %d anos\n", idade);
     printf("Altura: %.2f m\n", altura);
